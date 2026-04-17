@@ -1,0 +1,9 @@
+{
+  "model": "MiniMax-M2.7",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hello"
+    }
+  ]
+}
