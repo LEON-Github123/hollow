@@ -30,7 +30,7 @@ export const useChatStore = create<ChatState>((set) => ({
   isThinking: false,
   audioVolume: 0,
   apiKey: 'sk-cp-ua0blKdQvPQUwjE5BEiFqdXceRAHZCysJiMaCfQzztSRk7hNTQ4spArcqDHgZ7LtiT871vQSs6NmIO-kC8WfGcFz-wF3krcVzNlawAAkzkGY9iP6klFMbds',
-  apiBaseUrl: '/api-proxy',
+  apiBaseUrl: 'https://api.minimax.chat',
   apiModel: 'MiniMax-M2.7',
   
   addMessage: (msg) => set((state) => ({
